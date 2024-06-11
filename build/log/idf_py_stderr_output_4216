@@ -1,0 +1,1371 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM6 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM6 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/port/esp_system_chip.c:93
+0x400908bd: abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/newlib/abort.c:38
+0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+0x40089c11: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7b9d: wifi_init_sta at D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:522 (discriminator 1)
+[0m
+[0;33m0x400890fb: _esp_error_check_failed at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400817d2: panic_abort at D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/panic.c:472
+0x40089105: esp_system_abort at D:/Espressif/frameworks/esp-idf

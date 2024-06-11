@@ -1,0 +1,10 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Espressif\frameworks\esp-idf-v5.2.1\idf-extra-components\coap\examples\coap_server\build\bootloader\esp-idf\esptool_py && D:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/coap_server_example_main.c.obj
+D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c: In function 'coap_example_server':
+D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:397:13: warning: 'esp_netif_next' is deprecated: use esp_netif_next_unsafe() either directly or via esp_netif_tcpip_exec [-Wdeprecated-declarations]
+  397 |             netif = esp_netif_next(netif);
+      |             ^~~~~
+In file included from D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_wifi/include/esp_wifi_default.h:10,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_wifi/include/esp_wifi.h:58,

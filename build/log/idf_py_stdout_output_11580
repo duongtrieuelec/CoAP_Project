@@ -1,0 +1,19 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Espressif\frameworks\esp-idf-v5.2.1\idf-extra-components\coap\examples\coap_server\build\bootloader\esp-idf\esptool_py && D:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/coap_server_example_main.c.obj
+D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c: In function 'app_main':
+D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:625:15: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  625 |   xTaskCreate(wifi_init_sta, "static_ip", 8 * 1024, NULL, 5, &staticIpTaskHandle);
+      |               ^~~~~~~~~~~~~
+      |               |
+      |               void (*)(void)
+In file included from D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/include/esp_task.h:24,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip/port/include/lwipopts.h:20,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip/lwip/src/include/lwip/opt.h:51,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip/lwip/src/include/lwip/sockets.h:42,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip/include/lwip/sockets.h:8,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/components/lwip/port/esp32xx/include/sys/socket.h:15,
+                 from D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/main/coap_server_example_main.c:18:

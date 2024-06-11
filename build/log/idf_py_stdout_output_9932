@@ -1,0 +1,67 @@
+[1/5] cmd.exe /C "cd /D D:\Espressif\frameworks\esp-idf-v5.2.1\idf-extra-components\coap\examples\coap_server\build\esp-idf\esptool_py && D:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/build/partition_table/partition-table.bin D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/build/coap_server.bin"
+coap_server.bin binary size 0xbd840 bytes. Smallest app partition is 0x145000 bytes. 0x877c0 bytes (42%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Espressif\frameworks\esp-idf-v5.2.1\idf-extra-components\coap\examples\coap_server\build\bootloader\esp-idf\esptool_py && D:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe D:/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/3] cmd.exe /C "cd /D D:\Espressif\frameworks\esp-idf-v5.2.1\components\esptool_py && D:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=D:/Espressif/frameworks/esp-idf-v5.2.1 -D SERIAL_TOOL=D:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;D:/Espressif/frameworks/esp-idf-v5.2.1/components/esptooesptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 coap_server.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port COM6
+Connecting....................
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 48:e7:29:af:75:dc
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000cdfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26720 bytes to 16370...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16370 compressed) at 0x00001000 in 0.6 seconds (effective 366.3 kbit/s)...
+Hash of data verified.
+Compressed 776256 bytes to 489083...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001cb17... (6 %)
+Writing at 0x00024b53... (10 %)
+Writing at 0x00029981... (13 %)
+Writing at 0x000352c4... (16 %)
+Writing at 0x0003b3b4... (20 %)
+Writing at 0x00040df8... (23 %)
+Writing at 0x00046624... (26 %)
+Writing at 0x0004c1a4... (30 %)
+Writing at 0x00051fd0... (33 %)
+Writing at 0x00057b18... (36 %)
+Writing at 0x0005cd7d... (40 %)
+Writing at 0x00062248... (43 %)
+Writing at 0x00067759... (46 %)
+Writing at 0x0006cb12... (50 %)
+Writing at 0x0007219e... (53 %)
+Writing at 0x000779f8... (56 %)
+Writing at 0x0007d8e3... (60 %)
+Writing at 0x0008322b... (63 %)
+Writing at 0x00088d57... (66 %)
+Writing at 0x0008eaae... (70 %)
+Writing at 0x0009430d... (73 %)
+Writing at 0x00099f5b... (76 %)
+Writing at 0x000a05fc... (80 %)
+Writing at 0x000a5f42... (83 %)
+Writing at 0x000ab859... (86 %)
+Writing at 0x000b57dc... (90 %)
+Writing at 0x000bcd5b... (93 %)
+Writing at 0x000c304e... (96 %)
+Writing at 0x000c8c35... (100 %)
+Wrote 776256 bytes (489083 compressed) at 0x00010000 in 11.8 seconds (effective 525.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.0 seconds (effective 1439.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+l_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/Espressif/frameworks/esp-idf-v5.2.1/idf-extra-components/coap/examples/coap_server/build -P D:/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py/run_serial_tool.cmake"

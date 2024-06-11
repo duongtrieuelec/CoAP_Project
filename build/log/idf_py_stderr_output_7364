@@ -1,0 +1,31 @@
+fatal: detected dubious ownership in repository at 'D:/Espressif/frameworks/esp-idf-v5.2.1'
+'D:/Espressif/frameworks/esp-idf-v5.2.1' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-2966739926-260857880-164574588-1000'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory D:/Espressif/frameworks/esp-idf-v5.2.1
+fatal: detected dubious ownership in repository at 'D:/Espressif/frameworks/esp-idf-v5.2.1'
+'D:/Espressif/frameworks/esp-idf-v5.2.1' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-2966739926-260857880-164574588-1000'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory D:/Espressif/frameworks/esp-idf-v5.2.1
+fatal: detected dubious ownership in repository at 'D:/Espressif/frameworks/esp-idf-v5.2.1/components/openthread/openthread'
+'D:/Espressif/frameworks/esp-idf-v5.2.1/components/openthread/openthread/.git' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-2966739926-260857880-164574588-1000'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory D:/Espressif/frameworks/esp-idf-v5.2.1/components/openthread/openthread
+CMake Error at run_serial_tool.cmake:66 (message):
+  
+  D:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;D:/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+

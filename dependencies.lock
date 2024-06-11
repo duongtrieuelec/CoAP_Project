@@ -1,0 +1,15 @@
+dependencies:
+  espressif/coap:
+    component_hash: null
+    source:
+      path: D:\Espressif\frameworks\esp-idf-v5.2.1\idf-extra-components\coap
+      type: local
+    version: 4.3.4~3
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+manifest_hash: 74d54a5fab5d4e30ad7946934a74322c42329818abf785b14f29528ee1d32161
+target: esp32
+version: 1.0.0
